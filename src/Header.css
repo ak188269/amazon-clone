@@ -1,0 +1,95 @@
+.header{
+    box-sizing: border-box;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    /* justify-content: space-between; */
+    color:white;
+    /* position: sticky;
+    top: 0;;
+    z-index: 100; */
+}
+.header_logo{
+    width: 10rem;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 4px;
+}
+.header_search{
+   display: flex;
+   /* flex: 1; */
+   align-items: center;
+   border-radius: 24px;
+   /* border: 2px solid red; */
+}
+.header_searchInput{
+    height: 2.5rem;
+    width: 27rem;
+    
+}
+.header__optionBasket{
+    /* height:8rem ;
+    width: 7rem; */
+    color: white;
+margin-top: .8rem;
+
+}
+.header_nav{
+    /* border: 2px solid red; */
+    /* color: white; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.header_searchIcon{
+    padding: .4rem;
+    height: 2.1rem !important;
+    background-color: #cd9042;
+    color: black;
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+.header_option{
+    color: white;
+    text-decoration: none;
+}
+header__optionLineOne{
+    text-decoration: none;
+}
+span{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.header_nav>Link{
+    text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:600px
+)  {
+    html{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:450px) {
+    html{
+        font-size: 6px;
+    }
+    .header_searchInput{
+        width:10rem;
+        height: 9px;
+    }
+    .header_searchIcon{
+        padding: 1.5px;
+        height: 7.5px;
+    }
+    .header_logo{
+        width: 50px;
+    }
+}

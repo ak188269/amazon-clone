@@ -4,13 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.payment.js
+.payment.css
 # testing
 /coverage
-
+.axios.js
 # production
 /build
-
+.firebase
 # misc
 .DS_Store
 .env.local
